@@ -272,7 +272,7 @@ abstract class _PainterState extends PainterState {
       final List<List<PointDataClass>> savedPointsLists,
       final int savedIndex,
       final bool girdIsSelect}) = _$PainterStateImpl;
-  const _PainterState._();
+  const _PainterState._() : super._();
 
   @override
   bool get hasShadedArea;

@@ -19,8 +19,7 @@ class PainterState with _$PainterState {
     @Default(false) bool girdIsSelect,
   }) = _PainterState;
 
-  // ignore: unused_element
-  PainterState._();
+  const PainterState._();
 
   bool get canRepo => savedIndex < savedPointsLists.length - 1;
   bool get canUndo => savedIndex > -1;
